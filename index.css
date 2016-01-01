@@ -95,8 +95,15 @@ html,body{
     background: #c9c9c9;
 
 }
-.a1 .bottom p{
+.a1 .bottom p a{
     line-height: 50px;
+}
+.a1 .bottom a{
+    text-decoration: none;
+    color: black;
+}
+.a1 .bottom a span{
+    color:#74c274;
 }
 #a1 div{
     -webkit-transform:translate(0,0);
