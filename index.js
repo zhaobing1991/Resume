@@ -12,14 +12,14 @@ if(desW/desH<winW/winH){
 }else{
     main.style.webkitTransform = 'scale('+winH/desH+')';
 }
-oSpan.style.width='100%';
+/*oSpan.style.width='100%';
 
 Lin.addEventListener('webkitTransitionEnd',function(){
    Lin.remove();
     oLi.className="zIndex";
     oLi.style.display="block";
     oLi.firstElementChild.id="a1";
-},false);
+},false);*/
 
 
 [].forEach.call(oLis,function(){
